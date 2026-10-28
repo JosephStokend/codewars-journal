@@ -36,12 +36,12 @@ function batteryBars(percent) {
 ```
 
 ## 2. Example of a Best Practice Solution
-´´´javascript
+```javascript
 function batteryBars(p) {
   r = Math.floor(p / 20);
   return `[${"#".repeat(r)}${".".repeat(5 - r)}]`;
 }
-´´´
+```
 
 ## 3. What I Learned from "Best Practices"
 The top solution used the `${}` formatting method to simplify the final string.
