@@ -45,3 +45,4 @@ function batteryBars(p) {
 
 ## 3. What I Learned from "Best Practices"
 The top solution used the `${}` formatting method to simplify the final string.
+The top solution used string methods and `Math` class methods.
